@@ -17,7 +17,7 @@ void close(unsigned);
 
 int main()
 {
-    output_file=fopen("who.sthere","w");
+    output_file=fopen("who.sthere","a");
     struct sockaddr socket_address;
     unsigned char *buffer = (unsigned char *)malloc(16);
     capturing_socket = socket(AF_INET, SOCK_RAW, IPPROTO_TCP);

@@ -1,7 +1,0 @@
-# Who's there
-###### ANSI-C 51-line code to track destination IP calls systemwide
-
-- Start with `sudo ./who-sthere`
-- Output is displayed in the shell, and mirrored in `./who.sthere` file
-- Output sample:
-`[#88] 151.101.38.180 at Sat Dec 15 15:02:31 2018`
